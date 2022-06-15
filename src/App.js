@@ -77,7 +77,6 @@ function App() {
        items.map((data,index)=>{
          return(
            <>
-           {console.log(date,'date',data)}
            <div className='outerDiv'>
              <div className='innerDiv'>{`Note title: ${data[0]}`}</div>
              <div className='innerDiv'>{`Note content: ${data[1]}`}</div>
